@@ -1,0 +1,11 @@
+.navbar {
+  width: 100vw;
+  height: max-content;
+  background-color: aqua;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.navbar--right li {
+  list-style: none;
+}
