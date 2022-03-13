@@ -1,11 +1,27 @@
 .navbar {
   width: 100vw;
   height: max-content;
-  background-color: aqua;
+  background-color: crimson;
+
   display: flex;
-  flex-flow: wrap row;
+  flex-flow: row;
+  align-content: space-between;
+  font-size: 16pt;
+}
+
+.navbar--right {
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .navbar--right li {
   list-style: none;
+  display: inline-block;
+  margin: 20px 20px;
+  color: white;
+}
+
+a {
+  color: white;
 }
